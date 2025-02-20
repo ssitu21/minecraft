@@ -1,0 +1,68 @@
+div{
+    border: 1px solid rgb(255, 255, 255);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.nav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #00ff48;
+    
+}
+.logo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #000000;
+    color:white
+}
+.header {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:#00ff48;
+}
+.bodyarea {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:#00ff48;
+}
+
+.footer {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color:#00ff48;
+}
+.banner {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #00ff48;
+}
+ul {
+	list-style-type: none; /* Get rid of bullets for ul */
+	margin: 0px; /* No spaces around the ul */
+	padding: 0px; /* No spaces inside the ul */
+	overflow: hidden; /* Don't allow the floated li blocks to collapse the navbar */
+	background-color: #333;
+}
+
+li {
+	float:left; /* Float each li block to the top left beside each other */
+}
+
+li a {
+	display: block; /* Allow the element to take up its own line and space */
+	color: white;
+	text-align: center; /* Center the text in the block */
+	padding: 14px 16px; /* 14px space on the top and bottom; 16px space on the left and right */
+	text-decoration: none; /* Do not underline the link */
+}
+
+li a:hover:not(.active) { /* Change colour on hover of all blocks but NOT the .active class */
+	background-color: #111;
+}
+
+.active { /* The active class */
+	background-color: #04AA6D;
+}
