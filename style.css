@@ -1,38 +1,38 @@
 html, body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-color: #F9B7FF;
 }
 div{
-    border: 1px solid #52af57;
+    border: 1px solid #000000;
 }
 .container {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 3fr 35fr 2fr;
+    grid-template-rows: 0fr 5fr 0fr;
 }
 .nav {
     grid-column: 1/3;
     grid-row: 1/2;
-    background-color: #0f0606;
+    background-color: #F9B7FF  ;
     
 }
 
 .banner {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color:#128818;
+    background-color:#F9B7FF;
 }
 .bodyarea {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color:#128818;
+    background-color:#F9B7FF;
     
 }
 
 .footer {
     grid-column: 1/3;
     grid-row: 3/4;
-    background-color:#128818;
+    background-color:#fcfcfc;
 }
 
 ul {
@@ -40,7 +40,7 @@ ul {
 	margin: 0px; /* No spaces around the ul */
 	padding: 0px; /* No spaces inside the ul */
 	overflow: hidden; /* Don't allow the floated li blocks to collapse the navbar */
-	background-color: #ffffff;
+	background-color: #F9B7FF ;
 }
 
 li {
@@ -49,7 +49,7 @@ li {
 
 li a {
 	display: block; /* Allow the element to take up its own line and space */
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	text-align: center; /* Center the text in the block */
 	padding: 14px 16px; /* 14px space on the top and bottom; 16px space on the left and right */
 	text-decoration: none; /* Do not underline the link */
@@ -60,7 +60,7 @@ li a:hover:not(.active) { /* Change colour on hover of all blocks but NOT the .a
 }
 
 .active { /* The active class */
-	background-color: #046127;
+	background-color: #a04891;
 }
 img{
     width: 1000px;
